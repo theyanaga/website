@@ -1,4 +1,4 @@
-package com.example.starter.base;
+package io.yanaga;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;

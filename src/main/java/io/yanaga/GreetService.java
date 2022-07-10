@@ -1,4 +1,4 @@
-package com.example.starter.base;
+package io.yanaga;
 
 import javax.enterprise.context.Dependent;
 
@@ -9,7 +9,7 @@ public class GreetService {
         if (name == null || name.isEmpty()) {
             return "Hello anonymous user";
         } else {
-            return "Hello " + name;
+            return "Hello, your name is: " + name;
         }
     }
 }
